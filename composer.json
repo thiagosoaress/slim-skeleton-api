@@ -1,0 +1,24 @@
+{
+    "name": "slim/slim-skeleton-api",
+    "description": "Esqueleto do Sim Framework para um desenvolvimento rápido",
+    "homepage": "https://github.com/thiagosoaress",
+    "license": "MIT",
+    "version": "1.0",
+    "minimum-stability": "stable",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Thiago Soares",
+            "email": "tsoaresaz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "slim/slim": "^3.0"
+    }
+}
